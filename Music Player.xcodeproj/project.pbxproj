@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5052F0F52219EBBB00997195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5052F0F42219EBBB00997195 /* AppDelegate.swift */; };
-		5052F0F72219EBBB00997195 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5052F0F62219EBBB00997195 /* ViewController.swift */; };
 		5052F0FA2219EBBB00997195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5052F0F82219EBBB00997195 /* Main.storyboard */; };
 		5052F0FC2219EBBB00997195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5052F0FB2219EBBB00997195 /* Assets.xcassets */; };
 		5052F0FF2219EBBB00997195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5052F0FD2219EBBB00997195 /* LaunchScreen.storyboard */; };
 		5052F10A2219EBBB00997195 /* Music_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5052F1092219EBBB00997195 /* Music_PlayerTests.swift */; };
 		5052F1152219EBBB00997195 /* Music_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5052F1142219EBBB00997195 /* Music_PlayerUITests.swift */; };
+		5052F1252219ECB600997195 /* GenreButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5052F1242219ECB600997195 /* GenreButtonScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		5052F0F12219EBBB00997195 /* Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5052F0F42219EBBB00997195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5052F0F62219EBBB00997195 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5052F0F92219EBBB00997195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5052F0FB2219EBBB00997195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5052F0FE2219EBBB00997195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		5052F1102219EBBB00997195 /* Music PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5052F1142219EBBB00997195 /* Music_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_PlayerUITests.swift; sourceTree = "<group>"; };
 		5052F1162219EBBB00997195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5052F1242219ECB600997195 /* GenreButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButtonScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				5052F0F42219EBBB00997195 /* AppDelegate.swift */,
-				5052F0F62219EBBB00997195 /* ViewController.swift */,
 				5052F0F82219EBBB00997195 /* Main.storyboard */,
 				5052F0FB2219EBBB00997195 /* Assets.xcassets */,
 				5052F0FD2219EBBB00997195 /* LaunchScreen.storyboard */,
 				5052F1002219EBBB00997195 /* Info.plist */,
+				5052F1242219ECB600997195 /* GenreButtonScreen.swift */,
 			);
 			path = "Music Player";
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5052F0F72219EBBB00997195 /* ViewController.swift in Sources */,
+				5052F1252219ECB600997195 /* GenreButtonScreen.swift in Sources */,
 				5052F0F52219EBBB00997195 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
